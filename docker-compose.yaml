@@ -1,0 +1,11 @@
+version: "3"
+services:
+  centos:
+    # 適宜変えること
+    container_name: "sample-centos"
+    image: centos
+    tty: true
+    # 適宜変えること
+    privileged: true
+    command: /sbin/init
+    # 適宜変えること
